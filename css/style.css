@@ -153,10 +153,15 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
+    margin-bottom: 30px;
 }
 
-.client-item{
-    padding: 34px;
+.client-item img{
+    border-radius: 100px;
+}
+.client-item img:hover{
+    border: 2px solid black;
 }
 
 #clients img{
@@ -232,6 +237,30 @@ footer{
     cursor:pointer;
 }
 
+.btn:hover{
+    box-shadow: 0 0 10px black;
+    box-shadow: 5px;
+}
+
 .center{
     text-align: center;
 }
+
+#send-msg {
+    display: inline-block;
+    background: rgb(42, 234, 164);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(42, 234, 164);
+    transition: all 0.3s ease;
+  }
+
+  #send-msg:hover {
+    color: rgb(42, 234, 164);
+    background: none;
+  }
+
